@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+    margin-left: 0em;
+}
+
+header img {
+    padding-top: 20px;
+    float: left;
+}
+
+header {
+    display: inline-flex;
+}
+
+
+header .logo-text {
+    text-indent: 25px;
+}
+
+header .logo-text h2 {
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 2em;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+
+main #large-open {
+    font-size: 2em;
+}
+
+body ul li {
+    padding-bottom: 5px;
+
+}
+
+body .hypertext a {
+    font-weight: bold;
+}
+
+body .hypertext a {
+    color: orange;
+}
+
+body .hypertext a:hover {
+    color: green;
+}
+
+footer {
+    font-size: 90%;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 75%;
+}

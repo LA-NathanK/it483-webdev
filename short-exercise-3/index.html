@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Document prepared by Nathan Karstensen -->
+<head>
+    <meta name="description" content="The best prices in town for your Halloween needs! Don't try to haggle with me. Buy or leave. ">
+    <meta name="keywords" content="HTML,CSS,Halloween,Store,Shopping">
+    <meta name="author" content="Nathan Karstensen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Halloween Store</title>
+</head>
+<!-- The header has been split up into two different <div> blocks to be able
+     to align the two div's side by side with inline-flex applied to the header. -->
+<body>
+    <header>
+        <div class="logo">
+            <img src="pumpkin.gif" alt="Image not found."> 
+        </div>
+        <div class="logo-text">
+            <h2>The Halloween Store</h2>
+            <h3>For the little Goblin in all of us!</h3>
+        </div>
+    </header>
+<!-- As I have never used the 'span' tag, I decided to use it here instead of capitalizing the 'W' with
+     the use of the CSS code: main h1:first-letter { font-size: 2em; } -->
+    <main>
+        <h1><span id="large-open">W</span>elcome to my site. Please come in and stay awhile.</h1>
+
+        <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
+        
+        <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
+
+        <h3>Product categories</h3>
+        <ul class="hypertext">
+            <li><a href="props.html">Props</a></li>
+            <li><a href="costumes.html">Costumes</a></li>
+            <li><a href="special.html">Special Effects</a></li>
+            <li><a href="masks.html">Masks</a></li>
+        </ul>
+    </main>
+<!-- In the footer, we used two different font-size reduction codes. One to use on the footer as a whole, the second to
+     double down and apply another reduction of size for the copyright notice. -->
+    <footer>
+        <h3>My guarantee</h3>
+
+        <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>					
+        <div class="copyright">
+            <p>&copy; 2018 Ben Murach</p>
+        </div>
+    </footer>
+</body>
+</html>
