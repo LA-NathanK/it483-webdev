@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Document prepared by Nathan Karstensen -->
+<head>
+    <meta name="description" content="The best prices in town for your Halloween needs! Don't try to haggle with me. Buy or leave. ">
+    <meta name="keywords" content="HTML,CSS,Halloween,Store,Shopping">
+    <meta name="author" content="Nathan Karstensen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Halloween Store - Email</title>
+</head>
+<body>
+    <div class="whole-site">
+        <header>
+            <div class="logo">
+                <img src="images/pumpkin.gif" alt="Image not found."> 
+            </div>
+            <div class="logo-text">
+                <h2>The Halloween Store</h2>
+                <h3><b>For the little Goblin in all of us!</b></h3>
+            </div>
+        </header>
+        <nav>
+            <div class="nav-links">
+                <ul class="t1-nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product-list.html">Product List</a></li>
+                    <li><a href="personal.html">Personal</a></li>
+                    <li><a href="decorating-ideas.html" class="child">Decorating Ideas</a>
+                        <ul class="t2-nav-links">
+                            <li><a href="outdoor.html">Outdoor</a></li>
+                            <li><a href="indoor.html">Indoor</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="treats.html">Treats</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="join-email.html" class="active-page">Join Email</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="main-class">
+                <div class="side-links">
+                    <ul>
+                        <li><a href="props.html">Props</a></li>
+                        <li><a href="costumes.html">Costumes</a></li>
+                        <li><a href="special.html">Special FX</a></li>
+                        <li><a href="masks.html">Masks</a></li>
+                    </ul>
+                </div>
+                <div class="main-text">
+                    <h2>Please enter the following information:</h2>
+                    <form action="./email-submitted.html">
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname" value=""><br>
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname" value=""><br>
+                      <label for="lname">Email:</label>
+                      <input type="text" id="email" name="email" value=""><br>
+                      <label for="lname">Zip Code:</label>
+                      <input type="text" id="zipcode" name="zipcode" value="Optional but appreciated: 999999" onfocus="this.value=''"><br><br>
+                      <div class="submit-button">
+                      <input type="submit" value="Submit">
+                      </div>
+                    </form> 
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-text">
+                
+            </div>				
+            <div class="copyright">
+                <p>&copy; 2018 Ben Murach</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
