@@ -1,0 +1,269 @@
+* {
+    font-family: sans-serif;
+    margin-left: 0em;
+}
+
+h1 {
+    line-height: 16px;
+}
+
+body {
+    /* Background image */
+    background-image: url("../images/bats.gif");
+}
+
+.whole-site {
+    width: 800px;
+    background: white;
+    margin: auto;
+    border: 5px solid black;
+    box-shadow: 0px 0px 50px black;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    border-bottom: 5px solid black;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,166,0,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+header img {
+    padding: 10px 5px 10px 10px;
+    float: left;
+}
+
+header {
+    display: inline-flex;
+}
+
+header .logo-text h3 {
+    letter-spacing: 1.75px;
+    font-weight: bold;
+}
+
+header .logo-text {
+    text-indent: 25px;
+    line-height: 50%;
+}
+
+header .logo-text h2 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+
+/* ----------------------------- */
+/* THIS IS THE TIER 2 NAVAGATION */
+/* ----------------------------- */
+nav {
+    /* Added border bottom to match the border from header */
+    background-color: black;
+    margin-bottom: 50px;
+    border-bottom: 5px solid black;
+}
+
+nav .nav-links .t1-nav-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+nav .nav-links .t1-nav-links li {
+    /* inline-flex = display element inline (in a row)
+       relative = position relative to above div  */
+    display: inline-flex;
+    position: relative;
+}
+
+nav .nav-links .t1-nav-links li a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 39.7px;
+}
+
+nav .nav-links .t1-nav-links .active-page {
+    /* .active-page is assigned to the current .html being viewed */
+    color: orange;
+}
+
+nav .nav-links .t1-nav-links .t2-nav-links .active-page {
+    /* .active-page is assigned to the current .html being viewed */
+    color: rgb(233, 194, 123);
+}
+
+main .main-class .side-links .active-page {
+    /* .active-page is assigned to the current .html being viewed */
+    color: white;
+}
+
+nav .nav-links ul .t2-nav-links {
+    /* Initial properties for .t2-nav-links */
+    color:white;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: -31px;
+}
+
+ ul li:hover > .t2-nav-links  {
+     /* ul li:hover --- When you are hovering this element 
+        THEN THIS happens to .t2-nav-links
+        What is happening? They will display in grid */
+    display: grid;
+}
+
+nav .nav-links .t2-nav-links li a {
+    /* Select width of T2 Nav and text alignment to center of element */
+    text-align: center;
+    width: 100px;
+}
+
+nav .nav-links .t2-nav-links li a:hover {
+    /* Hover Background color for T2 Nav */
+    background-color: rgb(60, 60, 60);
+}
+
+
+main .main-class {
+    display: inline-flex;
+}
+
+main #large-open {
+    font-size: 2.5em;
+    padding: 0px;
+}
+
+.main-text {
+    margin: 0 2em;
+}
+
+.main-text h1 {
+    font-size: 1.4em;
+}
+
+/* ----------------- */
+/* Side Vertical Nav */
+/* ----------------- */
+.side-links {
+    width: 160px;
+}
+
+.side-links a {
+    width: 100px;
+    float: left;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    text-indent: 10px;
+    padding: 7px 0px;
+    margin: 10px 0px;
+    border: 2px solid black;
+}
+
+.side-links ul {
+    margin: 40px 0px;
+    list-style-type: none;
+}
+
+main a {
+    color: orange;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: green;
+}
+
+/* ---------- */
+/* Table Info */
+/* ---------- */
+table a {
+    color: black;
+    font-weight: normal;
+}
+
+table a:hover {
+    color: rgb(120, 120, 120);
+}
+
+table tr:first-child {
+    color: rgb(120, 120, 120);
+}
+
+table tr th:first-child {
+    width: 130px;
+    text-align: left;
+}
+
+table tr th:nth-child(2) {
+    width: 150px;
+    text-align: left;
+}
+
+table tr td:nth-child(2) {
+    width: 150px;
+    text-align: left;
+}
+
+table tr th:nth-child(3) {
+    width: 50px;
+    text-align: right;
+}
+
+table tr td:nth-child(3) {
+    width: 50px;
+    text-align: right;
+    background-color: rgb(252, 225, 176);
+}
+
+
+/* --------------- */
+/* Email Form Info */
+/* --------------- */
+body main .main-text label {
+    float: left;
+    text-align: right;
+    width: 80px;
+    
+}
+
+body main .main-text input{
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+body main .main-text .submit-button input{
+    width: 175px;
+    margin-left: 0;
+    background-color: orange;
+    border: 3px solid black;
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
+.footer-text h3 {
+    line-height: 5px;
+}
+
+.footer-text {
+    margin-left: 1.5em;
+    padding-bottom: 25px;
+    margin: 0 2em;
+}
+
+footer .copyright {
+    text-align: center;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,166,0,1) 25%, rgba(255,255,255,1) 100%);
+    padding-bottom: 1px;
+    border-top: 5px solid black;
+}
+
+footer .copyright p {
+    font-size: 85%;
+}
