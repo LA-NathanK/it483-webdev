@@ -1,0 +1,200 @@
+body {
+    display: inline-flex;
+    width: 100vw;
+}
+
+main {
+    background-color: aquamarine;
+    width: 100%;
+}
+/*************************/
+/** IMAGE TO HIDE LINES **/
+/*************************/
+.headerblock img {
+    height: 1px;
+    width: 1px;
+}
+.headerblock {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    width: 20px;
+    height: 99px;
+    background-color: white;
+}
+
+/*************************/
+/** NAVIGATION SIDE BAR **/
+/*************************/
+aside .nav-bar {
+    left: 150px;
+    padding-top: 175px;
+    width: 200px;
+    height: 100vh;
+    margin-top: -23px;
+    background-color: white;
+    border-right: 2px solid black;
+}
+aside .icons {
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 100px;
+}
+aside .icons img {
+    padding: 0px 5px;
+    height: 40px;
+    width: 38px;
+    opacity: 0.5;
+}
+aside .icons img:hover {
+    opacity: 1;
+}
+aside .icons .active {
+    opacity: .9;
+}
+aside .nav-bar a {
+    font-family: sans-serif;
+    background-color: white;
+    top: 0px;
+    color: rgb(177, 177, 177);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+aside .nav-bar a:hover {
+    background-color: rgb(250, 250, 250);
+}
+aside .nav-bar .active {
+    color: rgb(160, 160, 220);
+}
+
+/*****************/
+/** MAIN HEADER **/
+/*****************/
+.header {
+    background-color: white;
+    margin-top: -23px;
+    width: 100%;
+}
+.header h1 {
+    color: blue;
+    text-align: center;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.header h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+/**************************/
+/** MAIN BODY OF WEBSITE **/
+/**************************/
+main {
+    background-image: linear-gradient(120deg, rgb(230, 230, 250), rgb(120, 120, 150))
+}
+main .main-main {
+    background-image: linear-gradient(120deg,rgb(220, 220, 250), rgb(250, 250, 255));
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+main .main-main h1, h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+/* Unordered List */
+main .main-main ul {
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+/* Ordered List */
+main .main-main ol {
+    margin-left: 150px;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+/* Table */
+main .main-main table {
+    text-align: left;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+main .main-main table caption {
+    border: 2px solid black;
+    background-color: rgb(255, 210, 210);
+}
+main .main-main table th {
+    border: 1px solid black;
+    background-color: rgb(255, 167, 167);
+}
+main .main-main table td {
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+main .main-main p {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.247);
+    text-indent: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .main-main p a{
+    text-decoration: none;
+}
+main .main-main p a:hover {
+    color: black;
+}
+
+/********************/
+/** FOOTER BUTTONS **/
+/********************/
+.footer-buttons {
+    width: 150px;
+    font-family: sans-serif;
+    display: inline-flex;
+    position: absolute;
+    top: 650px;
+    justify-content: space-between;
+    margin-left: 50%;
+    margin-right: 450%;
+}
+.footer-buttons a {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    padding: 1px 3px;
+    font-weight: 100;
+    border: 2px solid black;
+    border-radius: 8%;
+}
+.footer-buttons a:hover {
+    background-color: rgb(220, 214, 235);
+}
+
+/***********/
+/* FOR FUN */
+/***********/
+@media (max-width: 591px) {
+    * {
+        display: none;
+        background: no-repeat;
+        background-color: black;
+        background-image: url(../images/hidden.png);
+        background-size: 100%;
+    }
+  }
